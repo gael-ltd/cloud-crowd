@@ -12,6 +12,7 @@ h2. config.yml
 |*aws_access_key*|Your Amazon Web Services *access key*, for S3 storage.|
 |*aws_secret_key*|Your Amazon Web Services *secret access key*, for S3 storage.|
 |*s3_bucket*|The S3 bucket you'd like to store your CloudCrowd results in.|
+|*s3_server*|The S3 endpoint to be used to connect to S3 storage.|
 |*s3_authentication*|If this option is turned on with S3 storage, all results will be saved as private files, and the URLs returned will be temporarily authenticated for 24 hours|
 |*http_authentication*|If this option is turned on, all communication with the central server, including web requests to view the Operations Center, API calls, and requests to and from Nodes, will use HTTP basic authentication with the login and password specified.|
 |*login*|The common login for all CloudCrowd requests via HTTP basic authentication, if enabled.|
